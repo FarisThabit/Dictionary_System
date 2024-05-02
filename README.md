@@ -1,0 +1,1 @@
+You can execute the DictionaryTest file and input the name of your personal text file that contains the dictionary data. If you prefer, you can use the sample dictionary file that was included, named Dictionary.

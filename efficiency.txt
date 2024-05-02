@@ -1,0 +1,14 @@
+1- Initialization :
+
+Initializing an empty dictionary: O(1)
+Initializing a dictionary with a single string s: O(log n)
+Initializing a dictionary with words from a text file with n words: O(n log n)
+
+2- Add new word: O(log n)
+
+3- Search for word: O(log n)
+
+4- Remove word: O(log n)
+
+5- Search for similar words: O(m * log n)
+where m is the number of words that are similar to the given word s. Since we are searching for words that differ in exactly one letter, we need to compare the given word with each word in the dictionary to check if they differ in exactly one letter. This can take up to n comparisons.
